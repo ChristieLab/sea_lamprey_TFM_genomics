@@ -1,1 +1,18 @@
-# sea_lamprey_TFM_genomics
+## This repository contains scripts for analyses presented in Backenstose et al. (2026). 
+Title: *""*
+
+Related data files can be found here: SRA-incoming
+
+## Directory description
+### 01_map_and_call_variants
+-Script for used for alignment and variant calling of Sea Lamprey (_Petromyzon marinus_).
+
+### 02_PCA
+-Script and sample data to perform PCA analyses using genome-wide SNP data.
+
+### 03_Fst
+**Alignment to reference and SNP calling**
+
+## Please cite:
+
+
