@@ -1,0 +1,29 @@
+WARNING: ignoring environment value of R_HOME
+
+--- Debugging SNP IDs from .bim file (snp_info) ---
+Column names of snp_info:
+[1] "chr"  "id"   "posg" "pos"  "alt"  "ref" 
+
+Head of snp_info (first 5 rows):
+# A tibble: 6 × 6
+  chr         id     posg   pos alt   ref  
+  <chr>       <chr> <dbl> <int> <chr> <chr>
+1 NC_046069.1 .         0  2062 G     A    
+2 NC_046069.1 .         0  6064 C     G    
+3 NC_046069.1 .         0  6699 T     C    
+4 NC_046069.1 .         0  6797 G     A    
+5 NC_046069.1 .         0  7087 T     C    
+6 NC_046069.1 .         0  7532 A     C    
+
+Are there any '.' in snp_info$id column (first 10 unique, if any):
+[1] "."
+
+Number of SNPs with '.' as ID: 6068195 
+Total number of SNPs: 6068195 
+--- End Debugging SNP IDs ---
+
+--- Genotype Matrix Dimensions & Orientation Check (AFTER TRANSPOSE) ---
+Dimensions of genotype matrix (rows x columns): 222 6068195 
+Expected: Rows = Individuals, Columns = SNPs
+Number of individuals (rows): 222 
+Number of SNPs (columns): 6068195 
