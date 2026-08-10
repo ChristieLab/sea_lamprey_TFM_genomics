@@ -21,7 +21,7 @@ Related data files can be found here: [SRA-incoming]
 -Heterozygosity calculations and plotting.
 
 ### 08_randomForest
--
+-Script that trains a randomForest model in R and outputs performance scores.
 
 ### 09_survival
 -Size distributions of early and late samples (before and after size matching).
