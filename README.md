@@ -1,7 +1,7 @@
 ## This repository contains scripts for analyses presented in Backenstose et al. (2026). 
 ### Title: *"Pesticide resistance is evolving in invasive sea lamprey"*
 
-Related data files can be found here: [SRA-incoming]
+Related data files can be found here: NCBI BioProject PRJNA1518147
 
 ## Directory description
 ### 01_map_and_call_variants
